@@ -53,7 +53,7 @@ etl.run()
 This tool was originally developed and verified within **Kaggle Kernels** to solve the **disk size limit** issue. During development for the `Infinite-Horizon-PIDS` project, **TarStreamETL** successfully processed over **200GB** of raw DARPA OpTC telemetry by maintaining a sliding buffer of only **3 files (~1.5GB)** at any time.
 
 **Kaggle Utility Script Usage:**
-1.  Add it as a Utility Script.
+1.  Add it as a [Utility Script](https://www.kaggle.com/code/faihaj/tar-stream-etl).
 2.  Import via `from tar_stream_etl import TarStreamETL`.
 3.  Set `output_path="/kaggle/tmp/output"` and `download_dir="/kaggle/tmp"` (instead of `/kaggle/working/` for more storage).
 
