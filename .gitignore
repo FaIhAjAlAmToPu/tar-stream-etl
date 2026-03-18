@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+output/
+temp_buffer/
+.tmp/
+*.parquet
+*.json.gz
