@@ -20,6 +20,10 @@ You can install the package directly from GitHub:
 ```bash
 pip install git+https://github.com/FaIhAjAlAmToPu/tar-stream-etl.git
 ```
+You can also go with the pypi installation:
+```bash
+pip install tar-stream-etl
+```
 
 ### 2. Basic Example
 ```python
