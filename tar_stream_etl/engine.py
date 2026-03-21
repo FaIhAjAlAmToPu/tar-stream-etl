@@ -124,7 +124,7 @@ class TarStreamETL:
         
         metadata = original_metadata.copy()
 
-        if flush_count > 0:
+        if flush_count > 1:
             metadata['id'] = f"{metadata['id']}-part-{flush_count}"
             metadata['title'] = f"{metadata['title']} (Part {flush_count})"
         print(f"📦 Uploading final shard: Final Part")
