@@ -1,4 +1,3 @@
-# %% [code]
 import os, time, shutil, gzip, threading, tarfile, requests, zlib
 import pyarrow.json as paj, duckdb
 
